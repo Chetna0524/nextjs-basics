@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+	background-color: blue;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 0.75rem;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.35s ease-in-out;
+}
+button:hover {
+	background-color: #fff;
+	border-color: blue;
+	color: blue;
+}
+
+.product-list {
+	display: flex;
+
+	align-items: center;
+	flex-wrap: wrap;
+}
+.product-list li {
+	background: #f8f8f8;
+	border-radius: 5px;
+	padding: 15px;
+	font-weight: 500;
+	margin: 5px 5px;
+	text-align: center;
+}
